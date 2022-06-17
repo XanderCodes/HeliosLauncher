@@ -2471,11 +2471,13 @@ input:checked + .toggleSwitchSlider:before {
     display: inline-flex;
     width: 70%;
     height: 100%;
+    flex-direction: column;
 }
 #landingContainer > #upper > #right {
     display: inline-flex;
     width: 15%;
     height: 100%;
+    justify-content: flex-end;
 }
 
 /* Lower content container. */
@@ -2858,17 +2860,16 @@ input:checked + .toggleSwitchSlider:before {
     height: 70px;
     width: auto;
     position: relative;
-    border: 2px solid white;
-    box-sizing: border-box;
-    border-radius: 50%;
+}
+
+#landing_logo {
+    width: 250px;
+    margin-top: 30px;
 }
 
 /* Logo container styles. */
 #image_seal_container {
-    position: relative;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
+
     margin-top: 50px;
 }
 
